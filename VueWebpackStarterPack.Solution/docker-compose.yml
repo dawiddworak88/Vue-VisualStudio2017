@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  vuewebpackstarterpack.website:
+    image: vuewebpackstarterpack.website
+    build:
+      context: ./../Projects/VueWebpackStarterPack.Website
+      dockerfile: Dockerfile
